@@ -1,65 +1,90 @@
 {
   "movies": [{
-    "title" : "Star Wars: Episode I - The Phantom Menace",
+    "title" : "Doraemon: Nobita và những bạn khủng long mới",
     "maPhim" : "1",
-    "main_characters" : ["Qui-Gon Jinn", "Obi-Wan Kenobi", "Anakin Skywalker", "Padmé Amidala", "Jar Jar Binks", "Darth Maul"],
-    "description" : "The evil Trade Federation, led by Nute Gunray is planning to take over the peaceful world of Naboo. Jedi Knights Qui-Gon Jinn and Obi-Wan Kenobi are sent to confront the leaders. But not everything goes to plan. The two Jedi escape, and along with their new Gungan friend, Jar Jar Binks head to Naboo to warn Queen Amidala, but droids have already started to capture Naboo and the Queen is not safe there. Eventually, they land on Tatooine, where they become friends with a young boy known as Anakin Skywalker. Qui-Gon is curious about the boy, and sees a bright future for him. The group must now find a way of getting to Coruscant and to finally solve this trade dispute, but there is someone else hiding in the shadows. Are the Sith really extinct? Is the Queen really who she says she is? And what's so special about this young boy?",
+    "main_characters" : ["Doraemon", "Nobita", "Giant", "Suneo", "Sisuka","Dekisugi"],
+    "description" : "Doraemon: Nobita và những bạn khủng long mới - Doraemon: Nobita's New Dinosaur là bộ phim điện ảnh anime thuộc thể loại khoa học viễn tưởng do đạo diễn Imai Kazuaki chịu trách nhiệm chỉ đạo, với phần kịch bản được chắp bút bởi biên kịch Kawamura Genki, nằm trong loạt manga và anime Doraemon. Đây là bộ phim chủ đề thứ 40 của anime Doraemon. Tác phẩm đánh dấu 50 năm kể từ khi series Doraemon được xuất bản. Nội dung phim kể về việc nobita tìm thấy một quả trứng khủng long hóa thạch trong buổi triển lãm khủng long và nhờ vào bảo bối của Doraemon mà chúng đã nở ra hai con khủng long, cậu đặt tên chúng lần lượt là Kyu và Myu. Tuy vậy, do không thể nuôi chúng ở thế giới hiện đại, nobita đã quyết định đưa chúng tới kỷ nguyên phấn trắng - 66 triệu năm trước. Tuy vậy một sự kiện lịch sử xảy ra có thể khiến cả thế giới thay đổi...",
     "poster" : "star_wars_episode_1_poster.png",
-    "hero_image" : "star_wars_episode_1_hero.jpg"
+    "hero_image" : "star_wars_episode_1_hero.jpg",
+    "link":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshinfansubvn%2Fvideos%2F3748553085187840&width=750&show_text=false&height=411&appId"
   },
 
   {
-    "title" : "Star Wars: Episode II - Attack of the Clones",
+    "title" : "Vua sư tử (2019) Walt disney lion king remake",
     "maPhim" : "2",
-    "main_characters" : ["Obi-Wan Kenobi", "Anakin Skywalker", "Count Dooku", "Padmé Amidala", "Mace Windu", "Yoda", "Jango Fett", "Supreme Chancellor Palpatine"],
-    "description" : "Ten years after the 'Phantom Menace' threatened the planet Naboo, Padmé Amidala is now a Senator representing her homeworld. A faction of political separatists, led by Count Dooku, attempts to assassinate her. There are not enough Jedi to defend the Republic against the threat, so Chancellor Palpatine enlists the aid of Jango Fett, who promises that his army of clones will handle the situation. Meanwhile, Obi-Wan Kenobi continues to train the young Jedi Anakin Skywalker, who fears that the Jedi code will forbid his growing romance with Amidala.",
+    "main_characters" : ["simba", "mufasa", "sacr", "timon", "bumba"],
+    "description" : "Nhân vật chính của Vua sư tử là chú sư tử con Simba, con trai của Mufasa, vị vua đang thống trị thế giới hoang dã ở đây. Cuộc sống hạnh phúc yêu đời bên cạnh cha mẹ và cô bạn Nala của cậu sớm chấm dứt khi người chú ruột Scar (mặt sẹo) có âm mưu cướp ngai vàng của cha cậu. Scar đã sắp đặt sẵn một kế hoạch tàn bạo, phối hợp với bầy linh cẩu hoang dàn dựng nên một cuộc chạy trốn tán loạn của vô vàn con linh dương rồi để cho Simba bị mắc kẹt trong đó...",
     "poster" : "star_wars_episode_2_poster.png",
-    "hero_image" : "star_wars_episode_2_hero.jpg"
+    "hero_image" : "star_wars_episode_2_hero.jpg",
+    "link": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBlueLotus000%2Fvideos%2F931050900729518&width=750&show_text=false&height=407&appId"
   },
 
   {
-    "title" : "Star Wars: Episode III - Revenge of the Sith",
+    "title" : "biệt đội big hero 6 (2014) big hero 6 walt disney",
     "maPhim" : "3",
-    "main_characters" : ["Obi-Wan Kenobi", "Anakin Skywalker", "Count Dooku", "Padmé Amidala", "Mace Windu", "Yoda", "C-3PO", "Supreme Chancellor Palpatine"],
-    "description" : "Three years after the onset of the Clone Wars; the noble Jedi Knights are spread out across the galaxy leading a massive clone army in the war against the Separatists. After Chancellor Palpatine is kidnapped, Jedi Master Obi-Wan Kenobi and his former Padawan, Anakin Skywalker, are dispatched to eliminate the evil General Grievous. Meanwhile, Anakin's friendship with the Chancellor arouses suspicion in the Jedi Order, and dangerous to the Jedi Knight himself. When the sinister Sith Lord, Darth Sidious, unveils a plot to take over the galaxy, the fate of Anakin, the Jedi order, and the entire galaxy is at stake. Upon his return, Anakin Skywalker's wife Padme Amidala is pregnant, but he is having visions of her dying in childbirth. Anakin Skywalker ultimately turns his back on the Jedi, thus completing his journey to the dark side and his transformation into Darth Vader. Obi-Wan Kenobi must face his former apprentice in a ferocious lightsaber duel on the fiery world of Mustafar.",
+    "main_characters" : ["Hiro Hamada", "Baymax", "GoGo Tomago", "Honey Lemon", "Wasabi" ],
+    "description" : "Chuyện phim xảy ra trong một thành phố hư cấu được gọi là San Fransokyo (một từ ghép giữa San Francisco và Tokyo), một thần đồng chế tạo trẻ tuổi tên là Hiro Hamada, tuy là thiên tài nhưng cậu ta luôn bỏ phí thời gian vào nhưng trận đấu robot trái phép. Sợ Hiro bỏ phí tài năng của mình, anh trai của Hiro, Tadashi đưa Hiro đến phòng thí nghiệm công nghệ tại Viện Công nghệ San Fransokyo, nơi Hiro gặp bạn bè của Tadashi: GoGo, Wasabi, Honey Lemon, và Fred, cùng robot chăm sóc sức khỏe Baymax do Tadashi chế tạo...",
     "poster" : "star_wars_episode_3_poster.png",
-    "hero_image" : "star_wars_episode_3_hero.jpg"
+    "hero_image" : "star_wars_episode_3_hero.jpg",
+    "link": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmikebrysanjose%2Fvideos%2F185358071852935&width=750&show_text=false&height=309&appId"
   },
 
   {
-    "title" : "Star Wars: Episode IV - A New Hope",
+    "title" : "phim Tên cậu là gì? (2016) your name anime",
     "maPhim" : "4",
-    "main_characters" : ["Luke Skywalker", "Han Solo", "Princess Leia Organa", "Ben Kenobi", "Darth Vader", "C-3P0", "R2-D2", "Chewbacca"],
-    "description" : "Part IV in George Lucas' epic, Star Wars: A New Hope opens with a Rebel ship being boarded by the tyrannical Darth Vader. The plot then follows the life of a simple farm boy, Luke Skywalker, as he and his newly met allies (Han Solo, Chewbacca, Obi-Wan Kenobi, C-3PO, R2-D2) attempt to rescue a Rebel leader, Princess Leia, from the clutches of the Empire. The conclusion is culminated as the Rebels, including Skywalker and flying ace Wedge Antilles make an attack on the Empire's most powerful and ominous weapon, the Death Star.",
+    "main_characters" : ["Tachibana Taki ", "Miyamizu Mitsuha", "Okudera Miki ", "Miyamizu Hitoha", "Teshigawara Katsuhiko"],
+    "description" : "Mitsuha - một nữ sinh sống tại vùng quê Nhật Bản, chán ngán cuộc sống hiện tại và luôn mong được lên Tokyo sống. Taki - một cậu nam sinh ở Tokyo, làm thêm tại một nhà hàng Ý sau giờ học, thích vẽ vời và quan tâm đến ngành kiến trúc. Cả hai bắt đầu có những giấc mơ kỳ lạ kể từ khi ngôi sao chổi Tiamat huyền thoại xuất hiện trên bầu trời...",
     "poster" : "star_wars_episode_4_poster.png",
-    "hero_image" : "star_wars_episode_4_hero.jpg"
+    "hero_image" : "star_wars_episode_4_hero.jpg",
+    "link": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FOurStationDreamFan%2Fvideos%2F680528462581001&width=750&show_text=false&height=411&appId"
   },
 
   {
-    "title" : "Star Wars: Episode V - The Empire Strikes Back",
+    "title" : "Phim công chúa mononoke (1997) Mononoke Hime",
     "maPhim" : "5",
-    "main_characters" : ["Luke Skywalker", "Han Solo", "Princess Leia Organa", "Darth Vader", "C-3P0", "R2-D2", "Chewbacca", "Lando Calrissian", "Boba Fett"],
-    "description" : "Fleeing the evil Galactic Empire, the Rebels abandon their new base in an assault with the Imperial AT-AT walkers on the ice world of Hoth. Princess Leia, Han Solo, Chewbacca and the droid C-3PO escape in the Millennium Falcon, but are later captured by Darth Vader on Bespin. Meanwhile, Luke Skywalker and the droid R2-D2 follows Obi-Wan Kenobi's posthumous command, and receives Jedi training from Master Yoda on the swamp world of Dagobah. Will Skywalker manage to rescue his friends from the Dark Lord?",
+    "main_characters" : ["Ashitaka", "Mononoke Hime", "Eboshi Gozen", "Jigo"],
+    "description" : "Ngôi làng bé nhỏ của bộ tộc Emishi ở phía Đông đột nhiên bị tấn công bởi Tatari Gami (tạm dịch là Tà Thần). Hoàng tử Ashitaka của tộc Emishi buộc phải dùng cung tên bắn chết Tatari Gami để bảo vệ dân làng. Trong lúc chiến đấu, anh đã bị nguyền khi để những con giun quỷ (thứ bao bọc lấy Tatari Gami) bám vào tay...",
     "poster" : "star_wars_episode_5_poster.png",
-    "hero_image" : "star_wars_episode_5_hero.jpg"
+    "hero_image" : "star_wars_episode_5_hero.jpg",
+    "link": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Falanime.vn%2Fvideos%2F2742373002695372&width=750&show_text=false&height=414&appId"
   },
 
   {
-    "title" : "Star Wars: Episode VI - Return of the Jedi",
+    "title" : "Phim khu rừng của miyori (2007) miyori no mori",
     "maPhim" : "6",
-    "main_characters" : ["Luke Skywalker", "Han Solo", "Princess Leia Organa", "Darth Vader", "C-3P0", "Chewbacca", "The Emperor", "Boba Fett"],
-    "description" : "Darth Vader and the Empire are building a new, indestructible Death Star. Meanwhile, Han Solo has been imprisoned, and Luke Skywalker has sent R2-D2 and C-3PO to try and free him. Princess Leia - disguised as a bounty hunter - and Chewbacca go along as well. The final battle takes place on the moon of Endor, with its natural inhabitants, the Ewoks, lending a hand to the Rebels. Will Darth Vader and the Dark Side overcome the Rebels and take over the universe?",
+    "main_characters" : ["Miyori", "Han Solo",  "mikasa", "Chewbacca","Boba Fett"],
+    "description" : "Khu rừng của Miyori hay Miyori 's Forest một bộ phim kể về câu chuyện được chọn, và từng bước trở thành người bảo vệ rừng của cô bé Miyori. Cùng với những người bạn cả con người và tinh linh trong khu rừng, cô bé dần hoàn thiện tính cách và trưởng thành qua những lần tranh đấu bảo vệ khu rừng...",
     "poster" : "star_wars_episode_6_poster.png",
-    "hero_image" : "star_wars_episode_6_hero.jpg"
+    "hero_image" : "star_wars_episode_6_hero.jpg",
+    "link": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F105267224213601%2Fvideos%2F949596892503544%2F&width=750&show_text=false&height=411&appId"
   },
 
   {
-    "title" : "Star Wars: Episode VI - Return of the Jedi",
+    "title" : "phim diệp vấn 3 (ip man) (2015) chung tử đơn",
     "maPhim" : "7",
-    "main_characters" : ["Luke Skywalker", "Han Solo", "Princess Leia Organa", "Darth Vader", "C-3P0", "Chewbacca", "The Emperor", "Boba Fett"],
-    "description" : "Darth Vader and the Empire are building a new, indestructible Death Star. Meanwhile, Han Solo has been imprisoned, and Luke Skywalker has sent R2-D2 and C-3PO to try and free him. Princess Leia - disguised as a bounty hunter - and Chewbacca go along as well. The final battle takes place on the moon of Endor, with its natural inhabitants, the Ewoks, lending a hand to the Rebels. Will Darth Vader and the Dark Side overcome the Rebels and take over the universe?",
-    "poster" : "star_wars_episode_6_poster.png",
-    "hero_image" : "star_wars_episode_6_hero.jpg"
+    "main_characters" : ["Diệp Vấn", "Trương Thiên Chí", "Trương Vĩnh Thành", "Mã Kình Sinh", "Lý Tiểu Long"],
+    "description" : "Năm 1959, Diệp Vấn cùng gia đình tiếp tục cuộc sống chật vật ở Hồng Kông. Con trai cả của anh, Diệp Chuẩn, đã trở về Phật Sơn để học tập, chỉ còn lại Diệp Vấn, vợ anh là Trương Vĩnh Thành và đứa con trai nhỏ Diệp Chính ở lại Hồng Kông. Lý Tiểu Long, cậu nhóc năm xưa từng tìm đến Diệp Vấn để xin học võ, nay đã thành một chàng trai kiêu ngạo, một lần nữa lại đến tìm anh để xin học võ, tuyên bố mình sẽ là đệ tử vĩ đại nhất của anh...",
+    "poster" : "star_wars_episode_7_poster.png",
+    "hero_image" : "star_wars_episode_7_hero.jpg",
+    "link": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1542370679390959%2Fvideos%2F1542371139390913&width=750&show_text=false&height=411&appId"
+  },
+  {
+    "title" : "Thám tử lừng danh Conan: Âm mưu trên biển (2005) ",
+    "maPhim" : "8",
+    "main_characters" : ["Edogawa Conan", "Kudo Shinichi", "Mouri Ran", "Mouri Kogoro", "Suzuki Sonoko", "Agasa Hiroshi"],
+    "description" : "Bộ phim hoạt hình thứ 9 của bộ truyện tranh Thám tử lừng danh Conan lấy bối cảnh trên một con tàu du ngoại sang trọng & đắt tiền. 15 năm trước, có một con tàu du ngoạn tên Yashiromaru, được đóng bởi tập đoàn Yashiro, bị đắm khi đang thả buồm. Hiện tại, có một con tàu mới, chiếc Saint Aphrodite, cũng được đóng bởi tập đoàn Yashiro. Conan, Sonoko & những người khác là khách mời trên con tàu ấy...",
+    "poster" : "star_wars_episode_8_poster.png",
+    "hero_image" : "star_wars_episode_8_hero.jpg",
+    "link": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmasuroki%2Fvideos%2F335910417595008&width=750&show_text=false&height=411&appId"
+  },
+  {
+    "title" : "Phim hậu duệ mặt trời tập 1 - 태양의 후예",
+    "maPhim" : "9",
+    "main_characters" : ["Yoo Si-jin", "Kang Mo-yeon", "Seo Dae-young", "Yoon Myung-joo"],
+    "description" : "Đại úy Yoo Shi-jin (Song Joong-ki) là đội trưởng đội tác chiến Alpha, trung đội trưởng quân đoàn Tae Baek của Đại Hàn Dân Quốc. Trong kì nghỉ ngắn hạn, anh bắt một kẻ trộm phiếu giảm giá bằng xe máy tên Kim Ki-bum (Kim Min-seok) với sự hỗ trợ của Thượng sĩ Seo Dae-young (Jin Goo). Kẻ trộm bị thương khi bị bắt và được đưa đến bệnh viện. Thượng sĩ Seo phát hiện ra điện thoại của mình bị kẻ trộm lấy mất và đến bệnh viện để đòi lại...",
+    "poster" : "star_wars_episode_9_poster.png",
+    "hero_image" : "star_wars_episode_9_hero.jpg",
+    "link": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FCHTcaihuuthanh%2Fvideos%2F646009978871014&width=750&show_text=false&height=411&appId"
   }]
 
 }

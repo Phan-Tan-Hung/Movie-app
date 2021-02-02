@@ -12,8 +12,11 @@
     crossorigin="anonymous">
 
     <!-- style phần header -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
-
+    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
   </head>
   <body>
 
@@ -22,9 +25,9 @@
     <nav class="navbar navbar-fixed-top">
       <div class="content-padding">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/">Home</a></li>
+          <li><a href="/" style="color: black;">Home</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Movies <i class="fa fa-chevron-down"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"style="color: black;"> Movies <i class="fa fa-chevron-down"></i></a>
             <ul class="dropdown-menu">
               <% for (var i = 1; i <= movies.length; i++) { %>
               <li>
@@ -38,18 +41,71 @@
 
     </nav>
 
+    <!-- thanh tim kiem -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">MePhim.com</a>
+        </div>
+      </div>
+    </nav>
 
-
-
-
-    <!-- anh bia -->
-    <div id="hero-image">
-      <h1 id="hero-title"><%= title %></h1>
+    <div class="container">
+    	<div class="jumbotron">
+	    	<h3 class="text-center" style="color: black;">Tìm Kiếm</h3>
+	    	<form id="searchForm">
+	    		<input type="text" class="form-control" id="searchText" placeholder="Tìm Phim...">
+	    	</form>
+	    </div>
     </div>
+
+    <div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+
+    <!-- <div id="hero-image">
+      <h1 id="hero-title">MEPHIM.COM</h1>
+    </div> -->
+
+    <div id="body-navbar">
+      <h3 style="font-weight: 700" >Phim mới cập nhật</h3>
+    </div>
+
+ 
+    <div id="sidebar-wrapper" >
+      <h3 style="font-weight: 700" >Top phim hay</h3>
+      
+      <% for (var i = 0; i < 3; i++) { %>
+        <div class="sidebar-poster">
+          <a href="/Phim/<%= movies[i].maPhim %>">
+  
+            <img src="/images/<%= movies[i].poster %>" class="img-responsive">
+  
+            <div class="poster-info-overlay">
+              <h3><%= movies[i].title %></h3>
+              <h4>Click xem chi tiết-> <i class="fa fa-arrow-right"></i></h4>
+            </div>
+  
+          </a>
+  
+        </div>	  
+      <% } %>
+      </div>	   
+
 
 
     <!-- poster -->
-    <div id="posters-wrapper" class="content-padding clearfix">
+    <div id="posters-wrapper" class="content-padding-poster" >
 
       <% for (var i = 0; i < movies.length; i++) { %>
         <div class="poster">
@@ -60,29 +116,14 @@
   
             <div class="poster-info-overlay">
               <h3><%= movies[i].title %></h3>
-              <h4>View More <i class="fa fa-arrow-right"></i></h4>
+              <h4>Click xem chi tiết-> <i class="fa fa-arrow-right"></i></h4>
             </div>
   
           </a>
   
         </div>	  
       <% } %>
-  
     </div>
-
-  <!-- size bar -->
-  <!-- <div id="size-bar">
-    <p>side bar</p>
-  </div> -->
-
-  <!-- footer -->
-  <footer>
-    <div class="content-padding">
-      <div class="footer-content">
-        <p>Thông tin liên lạc &copy; HungPhan99@gmail.com</p>
-      </div>
-    </div>
-  </footer>
 
     <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -90,4 +131,14 @@
     integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
     crossorigin="anonymous"></script>
   </body>
+
+  <!-- footer -->
+  <footer>
+    <div class="content-padding">
+      <div class="footer-content">
+        <p>Thông tin liên lạc &copy; phanhung16299gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
 </html>

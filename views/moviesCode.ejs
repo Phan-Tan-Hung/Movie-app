@@ -49,22 +49,27 @@
     </div>
 
   <!-- poster -->
-	<div class="content-padding clearfix">
-		<div class="poster-wrapper">
-  		<img src="/images/<%= movie.poster %>" class="img-responsive">
-        </div>
+<div class="content-padding clearfix">
+		<div class="single-poster-wrapper">
+      <img src="/images/<%= movie.poster %>" class="img-responsive">
+      <div class="single-poster-info-overlay">
+        <h3><%= title %></h3>
+        <h4>Click xem chi tiết-> <i class="fa fa-arrow-right"></i></h4>
+      </div>
+
+</div>
 
     <!--gioi thieu phim-->
     <div class="description-wrapper">
       <!-- mo ta -->
       <div class="description">
-          <h2 class="movie-header">Description</h2>
+          <h2 class="movie-header">Giới thiệu nội dung</h2>
           <p><%= movie.description %></p>
       </div>
     
     <!-- nhan vat chinh -->
       <div class="main-characters">
-        <h2 class="movie-header">Main Characters</h2>
+        <h2 class="movie-header">Nhân vật chính</h2>
         <ul>
         <% for (var i = 0; i < main_characters.length; i++) { %>
           <li><%= main_characters[i] %></li>
@@ -72,7 +77,13 @@
         </ul>
       </div>
   </div>
+</div>
 
+<div id="movie-container">
+  <iframe src="<%= movie.link %>" 
+  width="1000" height="611" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; 
+  clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+</div>
 
     <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -80,4 +91,12 @@
     integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
     crossorigin="anonymous"></script>
   </body>
+  
+  <footer>
+    <div class="content-padding">
+      <div class="footer-content">
+        <p>Thông tin liên lạc &copy; phanhung16299@gmail.com</p>
+      </div>
+    </div>
+  </footer>
 </html>

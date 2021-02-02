@@ -34,7 +34,7 @@ exports.chonPhim = function(req,res){
 	} else {
 		res.render('notFound', {
 			movies : movies,
-			title : "Oops, this page doesn't exist"
+			title : "Xin lỗi! phim này chưa được cập nhật."
 		});
 	}
 
