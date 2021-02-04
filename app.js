@@ -17,6 +17,9 @@ app.get('/', routes.home);
 // Chon phim
 app.get('/phim/:maPhim?', routes.chonPhim);
 
+//the loai
+app.get('/theLoai/:Category?', routes.chonTheLoai);
+
 // khong tim thay
 app.get('*', routes.notFound);
 

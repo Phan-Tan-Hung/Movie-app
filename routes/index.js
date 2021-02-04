@@ -12,6 +12,34 @@ exports.home = function(req,res){
     });
 };
 
+//the loai
+exports.chonTheLoai = function(req,res){
+    var Category = req.params.Category;
+    var movies = moviesJSON.movies; // truy cập phim
+
+    if (Category == 1){
+        //var movies = movies[Category - 1 ]
+        res.render('Category1', {
+            movies : movies,
+            //Category: 1
+        });
+    }
+    else if (Category == 2){
+        //var movies = movies[Category - 1 ]
+        res.render('Category2', {
+            movies : movies,
+            //Category: 2
+		});
+    }
+    else{
+        //var movies = movies[Category - 1 ]
+        res.render('Category3', {
+            movies : movies,
+            //Category: 3
+        });
+    }
+};
+
 // Chon phim
 exports.chonPhim = function(req,res){
     var maPhim = req.params.maPhim;
@@ -39,6 +67,7 @@ exports.chonPhim = function(req,res){
 	}
 
 };
+
 
 // khong tim thay
 exports.notFound = function(req, res) {

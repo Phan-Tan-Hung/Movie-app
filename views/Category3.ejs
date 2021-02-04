@@ -76,7 +76,7 @@
       <h1 id="hero-title">MEPHIM.COM</h1>
     </div> -->
 
-    <div id="body-navbar">
+    <div id="body-navbar" >
     <select id="url" onchange="urlHandler(this.value)">
         <option disabled selected value>THỂ LOẠI</option>
         <option value="/theLoai/1">HÀNH ĐỘNG</option>
@@ -111,7 +111,7 @@
     <!-- poster -->
     <div id="posters-wrapper" class="content-padding-poster" >
 
-      <% for (var i = 0; i < movies.length; i++) { %>
+        <% for (var i = 7; i > 4; i -= 2) { %>
         <div class="poster">
   
           <a href="/Phim/<%= movies[i].maPhim %>">
@@ -138,6 +138,7 @@
     function urlHandler(value) {                               
         window.location.assign(`${value}`);
     }</script>
+
 
   </body>
 

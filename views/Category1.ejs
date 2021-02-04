@@ -111,9 +111,8 @@
     <!-- poster -->
     <div id="posters-wrapper" class="content-padding-poster" >
 
-      <% for (var i = 0; i < movies.length; i++) { %>
+        <% for (var i = 8; i >= 2; i -= 2) { %>
         <div class="poster">
-  
           <a href="/Phim/<%= movies[i].maPhim %>">
   
             <img src="/images/<%= movies[i].poster %>" class="img-responsive">

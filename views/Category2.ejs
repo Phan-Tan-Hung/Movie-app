@@ -111,7 +111,7 @@
     <!-- poster -->
     <div id="posters-wrapper" class="content-padding-poster" >
 
-      <% for (var i = 0; i < movies.length; i++) { %>
+        <% for (var i = 4; i >= 0 ; i --) { %>
         <div class="poster">
   
           <a href="/Phim/<%= movies[i].maPhim %>">
@@ -138,6 +138,7 @@
     function urlHandler(value) {                               
         window.location.assign(`${value}`);
     }</script>
+
 
   </body>
 
