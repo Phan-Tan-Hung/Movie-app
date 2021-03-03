@@ -12,6 +12,27 @@ exports.home = function(req,res){
     });
 };
 
+//đăng nhập đăng ký
+exports.signin = function(req,res){
+
+    var movies = moviesJSON.movies; // truy cập phim
+
+    res.render('signin', {
+        title: "Mephim.com",
+        movies : movies
+    });
+};
+
+exports.signup = function(req,res){
+
+    var movies = moviesJSON.movies; // truy cập phim
+
+    res.render('signup', {
+        title: "Mephim.com",
+        movies : movies
+    });
+};
+
 //the loai
 exports.chonTheLoai = function(req,res){
     var Category = req.params.Category;
